@@ -1,9 +1,17 @@
+.image-header
+{
+margin-top:5px;
+text-align:center;
+}
+
 /**
  * Site header
  */
-.site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+.site-header 
+{
+  background-color : $color-black;
+  border-top: 5px solid $border-color;
+  border-bottom: 1px solid $border-color;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
@@ -20,12 +28,12 @@
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: $text-color-light-blue;
   }
 }
 
 .site-nav {
-  float: right;
+  
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
@@ -37,7 +45,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: $text-color-light-blue;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -106,7 +114,9 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+
+  background-color : $color-black;
+  border-top: 1px solid $border-color;
   padding: $spacing-unit 0;
 }
 
@@ -119,11 +129,12 @@
 .social-media-list {
   list-style: none;
   margin-left: 0;
+  border-bottom: 1px solid $border-color;
 }
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
+  color: $text-color-light-blue;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -176,9 +187,15 @@
  * Page content
  */
 .page-content {
+
   padding: $spacing-unit 0;
   flex: 1;
+  background-color: $color-black;
+  
+  
 }
+
+
 
 .page-heading {
   @include relative-font-size(2);
@@ -194,15 +211,17 @@
 
   > li {
     margin-bottom: $spacing-unit;
+    border:1px solid $border-color;
   }
 }
 
 .post-meta {
   font-size: $small-font-size;
-  color: $grey-color;
+  color: $text-color-light-blue;
 }
 
 .post-link {
+  color: $text-color-light-blue;
   display: block;
   @include relative-font-size(1.5);
 }
@@ -213,6 +232,7 @@
  * Posts
  */
 .post-header {
+
   margin-bottom: $spacing-unit;
 }
 
@@ -227,6 +247,7 @@
 }
 
 .post-content {
+
   margin-bottom: $spacing-unit;
 
   h2 {
