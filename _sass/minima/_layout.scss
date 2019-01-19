@@ -45,13 +45,23 @@ text-align:center;
   }
 
   .page-link {
+    font-size:$base-font-size * 1.4;
+    border-right: 1px solid $border-color;
+    padding-right: 10px;
     color: $text-color-light-blue;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
-      margin-right: 20px;
+      margin-right: 10px;
     }
+    
+    &:hover {
+      background-color: $color-yellow-dark;
+      color: $text-color-link-hover;
+      text-decoration: none;
+    }    
+    
   }
 
   @include media-query($on-palm) {
