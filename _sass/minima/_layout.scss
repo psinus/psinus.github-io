@@ -56,9 +56,9 @@ text-align:center;
 
   @include media-query($on-palm) {
     position: absolute;
-    top: 9px;
-    right: $spacing-unit / 2;
-    background-color: $background-color;
+    top: 4px;
+    right: 4px;
+    background-color: $color-black;
     border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
@@ -82,7 +82,7 @@ text-align:center;
       text-align: center;
 
       > svg {
-        fill: $grey-color-dark;
+        fill: $grey-color;
       }
     }
 
@@ -211,7 +211,7 @@ text-align:center;
 
   > li {
     margin-bottom: $spacing-unit;
-    border:1px solid $border-color;
+    border-bottom:1px solid $border-color;
   }
 }
 
@@ -221,7 +221,6 @@ text-align:center;
 }
 
 .post-link {
-  color: $text-color-light-blue;
   display: block;
   @include relative-font-size(1.5);
 }
