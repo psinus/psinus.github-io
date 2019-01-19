@@ -22,7 +22,7 @@ url: "https://psinus.github.io" # the base hostname & protocol for your site, e.
 
 #posts
 show_excerpts: true
-excerpt_separator: --stop_excerpt--
+excerpt_separator: <!--stop_excerpt-->
 
 
 # Build settings
