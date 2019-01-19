@@ -35,6 +35,7 @@ plugins:
 header_pages:
   - about.md
   - Galaterrica.md
+  - HostileLands.md
   
 
 # Exclude from processing.

@@ -1,7 +1,8 @@
 ---
 layout: game_page
-title: Galaterrica
+title: About
 permalink: /galaterrica/about/
 root: /galaterrica
 ---
 
+Horrible space.
