@@ -2,7 +2,12 @@
 
   <p class="image-header">
     <a href="{{site.url}}" >
-     <img src="/assets/image/bg_cave.png">
+      {% if page.header %}
+        <img src="{{page.header}}">
+      
+      {% else %}
+        <img src="/assets/image/header_default.png">
+      {% endif %}
     <a/>
   </p>  
 
