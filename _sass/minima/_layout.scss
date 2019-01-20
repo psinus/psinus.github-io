@@ -6,10 +6,33 @@
   padding: 6px;
 }
 
-.image-header
+#image-header
 {
-margin-top:5px;
-text-align:center;
+  height:150px;
+  width:100%;
+}
+
+.image-header-default
+{
+
+  margin-top: 5px;
+  text-align: center;
+  background-image: url("/assets/image/header_default.png");
+}
+
+.image-header-galaterrica
+{
+  margin-top: 5px;
+  text-align: center;
+  background-image: url("/assets/image/header_galaterrica.png");
+}
+
+
+.image-header-hostile-lands
+{
+  margin-top: 5px;
+  text-align: center;
+  background-image: url("/assets/image/header_hostile_lands.png");
 }
 
 /**

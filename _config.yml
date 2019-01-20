@@ -33,11 +33,13 @@ plugins:
 
 
 header_pages:
-  - about.md
+  - News.md
   - Galaterrica.md
   - HostileLands.md
   
 
+#telegram_username: psinusgames
+github_username: psinus
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

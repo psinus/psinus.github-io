@@ -1,14 +1,17 @@
 <header class="site-header" role="banner">
 
-  <p class="image-header">
-    <a href="{{site.url}}" >
-      {% if page.header %}
-        <img src="{{page.header}}">
+  <p>
+      {% if page.image_header %}
+          <div class="{{page.image_header}}" id="image-header">
+           
+          </div>
       
       {% else %}
-        <img src="/assets/image/header_default.png">
+          <div class="image-header-default" id="image-header">
+            
+          </div>
       {% endif %}
-    <a/>
+    
   </p>  
 
   
