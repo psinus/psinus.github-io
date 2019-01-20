@@ -1,5 +1,7 @@
 ---
-layout: game_page
+layout: page
+type: page_game
+page_content: page-content-hostile-lands
 title: Hostile lands
 permalink: /hostile_lands/about/
 root: /hostile_lands

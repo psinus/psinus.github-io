@@ -227,13 +227,34 @@
 /**
  * Page content
  */
-.page-content {
+.page-content-default {
 
   padding: $spacing-unit 0;
   flex: 1;
   background-color: $color-black;
   
   background-image: url("/assets/image/bg_content_default.png");
+
+  
+}
+
+.page-content-galaterrica {
+
+  padding: $spacing-unit 0;
+  flex: 1;
+  background-color: $color-black;
+  
+  background-image: url("/assets/image/bg_content_galaterrica.png");
+
+}
+
+.page-content-hostile-lands {
+
+  padding: $spacing-unit 0;
+  flex: 1;
+  background-color: $color-black;
+  
+  background-image: url("/assets/image/bg_content_hostile_world.png");
 
   
 }

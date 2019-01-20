@@ -7,7 +7,17 @@
 
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
+    
+
+    
+  {% if page.page_content %}
+    <main class="{{page.page_content}}" aria-label="Content"> 
+  {% else %}
+     
+    <main class="page-content-default" aria-label="Content">
+  {% endif %}
+
+
       <div class="wrapper">
         {{ content }}
       </div>

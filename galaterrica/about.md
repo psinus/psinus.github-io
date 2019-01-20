@@ -1,5 +1,7 @@
 ---
-layout: game_page
+layout: page
+type: page_game
+page_content: page-content-galaterrica
 title: About
 permalink: /galaterrica/about/
 root: /galaterrica
