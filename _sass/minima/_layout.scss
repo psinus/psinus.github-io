@@ -20,19 +20,11 @@
   background-image: url("/assets/image/header_default.png");
 }
 
-.image-header-galaterrica
+.image-header-go-deeper
 {
   margin-top: 5px;
   text-align: center;
-  background-image: url("/assets/image/header_galaterrica.png");
-}
-
-
-.image-header-hostile-lands
-{
-  margin-top: 5px;
-  text-align: center;
-  background-image: url("/assets/image/header_hostile_lands.png");
+  background-image: url("/assets/image/header_go_deeper.png");
 }
 
 /**
@@ -238,23 +230,13 @@
   
 }
 
-.page-content-galaterrica {
+.page-content-go-deeper {
 
   padding: $spacing-unit 0;
   flex: 1;
   background-color: $color-black;
   
-  background-image: url("/assets/image/bg_content_galaterrica.png");
-
-}
-
-.page-content-hostile-lands {
-
-  padding: $spacing-unit 0;
-  flex: 1;
-  background-color: $color-black;
-  
-  background-image: url("/assets/image/bg_content_hostile_world.png");
+  background-image: url("/assets/image/bg_content_go_deeper.png");
 
   
 }
