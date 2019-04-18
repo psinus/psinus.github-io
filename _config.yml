@@ -34,8 +34,7 @@ plugins:
 
 header_pages:
   - News.md
-  - Galaterrica.md
-  - HostileLands.md
+  - Go deeper.md
   
 
 #telegram_username: psinusgames
