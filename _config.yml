@@ -34,7 +34,7 @@ plugins:
 
 header_pages:
   - News.md
-  - Go deeper.md
+  - GoDeeper.md
   
 
 #telegram_username: psinusgames
